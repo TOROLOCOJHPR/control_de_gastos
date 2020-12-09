@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Control de gastos</string>
+    <string name="title_inicio">INICIO</string>
+    <string name="title_transacciones">TRANSACCIONES</string>
+    <string name="title_abonos">ABONOS</string>
+    <string name="credito">CRÉDITO</string>
+    <string name="credito_disponible">CRÉDITO DISPONIBLE</string>
+    <string name="negativo">NEGATIVO</string>
+    <string name="corte_actual">CORTE ACTUAL</string>
+    <string name="fecha_corte">Fecha corte</string>
+    <string name="puntos_dobles">:</string>
+    <string name="signo_dollar">$</string>
+</resources>

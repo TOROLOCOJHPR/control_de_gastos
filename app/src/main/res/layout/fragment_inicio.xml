@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_fragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:paddingBottom="2dp"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:id="@+id/header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    android:padding="@dimen/padding_body">
+
+
+                    <LinearLayout
+                        android:id="@+id/creditoContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Credito: "
+                            android:textColor="@color/text_title_header"
+                            android:textSize="@dimen/text_title_header" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/text_separacion"
+                            android:text="@string/signo_dollar"
+                            android:textColor="@color/text_subtitle_header"
+                            android:textSize="@dimen/text_subtitle_header" />
+
+                        <TextView
+                            android:id="@+id/tv_credito"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="..."
+                            android:textColor="@color/text_subtitle_header"
+                            android:textSize="@dimen/text_subtitle_header" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/creditoDisponibleContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mes actual: "
+                            android:textColor="@color/text_title_header"
+                            android:textSize="@dimen/text_title_header" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/text_separacion"
+                            android:text="@string/signo_dollar"
+                            android:textColor="@color/text_subtitle_header"
+                            android:textSize="@dimen/text_subtitle_header" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="..."
+                            android:textColor="@color/text_subtitle_header"
+                            android:textSize="@dimen/text_subtitle_header" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/negativoContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Negativo :"
+                            android:textColor="@color/text_title_header"
+                            android:textSize="@dimen/text_title_header" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/text_separacion"
+                            android:text="@string/signo_dollar"
+                            android:textColor="@color/text_subtitle_header"
+                            android:textSize="@dimen/text_subtitle_header" />
+
+                        <TextView
+                            android:id="@+id/tv_negativo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="..."
+                            android:textColor="@color/text_subtitle_header"
+                            android:textSize="@dimen/text_subtitle_header" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/positivoContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Positivo :"
+                            android:textColor="@color/text_title_header"
+                            android:textSize="@dimen/text_title_header" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/text_separacion"
+                            android:text="@string/signo_dollar"
+                            android:textColor="@color/text_subtitle_header"
+                            android:textSize="@dimen/text_subtitle_header" />
+
+                        <TextView
+                            android:id="@+id/tv_positivo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="..."
+                            android:textColor="@color/text_subtitle_header"
+                            android:textSize="@dimen/text_subtitle_header" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@color/background_fragment"
+                android:padding="@dimen/padding_body">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:text="Agregar transaccion"
+                    android:textColor="@color/text_title_form"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/monto_transaccion_TIL"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="Monto"
+                    android:theme="@style/input_outline"
+                    app:endIconMode="clear_text"
+                    app:errorIconTint="@color/error"
+                    app:errorTextColor="@color/error">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/monto_transaccion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/descripcion_transaccion_TIL"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:theme="@style/input_outline"
+                    app:endIconMode="clear_text"
+                    app:errorIconTint="@color/error"
+                    app:errorTextColor="@color/error">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/descripcion_transaccion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12sp"
+                        android:ems="10"
+                        android:hint="Descripción"
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnRegistrarTransaccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gradient_blue"
+                    android:text="Aceptar"
+                    android:textColor="@color/white" />
+
+                <LinearLayout
+                    style="@style/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="12dp"></LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12sp"
+                    android:text="Agregar Abono"
+                    android:textColor="@color/text_title_form"
+                    android:textSize="20sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/monto_abono_TIL"
+                    android:layout_marginBottom="12sp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Monto"
+                    android:theme="@style/input_outline"
+                    app:endIconMode="clear_text"
+                    app:errorEnabled="true"
+                    app:errorIconTint="@color/error"
+                    app:errorTextColor="@color/error">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/monto_abono"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_registrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gradient_green"
+                    android:text="Registrar abono"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
